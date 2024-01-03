@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portpolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <div class="logo">
+     <br>
+        <span>P</span>ortfolio</div>
+        <ul class="navlist">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about ">About me</a></li>
+            <li><a href="#services">services</a></li>
+            <li><a href="#portfolio">Portpolio</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#Education Detailes">Education Detailes</a></li>
+        </ul>
+        <div id="menu-icon" class="bx bx-menu"></div>
+    </header>
+
+
+    <!----home section----------------------->
+    <section id="home" class="home">
+        
+        <div class="home-content">
+            <h3>Hi I'm sukanya bereela</h3>
+            <div class="change-text">
+                <h3>And I'm</h3>
+                <h3>
+                    <span class="word">Web Developer</span>
+                    <span class="word">web&nbsp; developer </span>
+                    <span class="word">graphic&nbsp; designer</span>
+                </h3>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Sequi enim debitis in quo consequatur tenetur obcaecati 
+                 cumque aperiam ipsa accusamus.</p>
+                 <div class="info-box">
+                    <div class="email-info">
+                        <h5>Email:</h5>
+                        <span>hsukanya1234
+                            @gmail.com</span>
+                    </div>
+                    <div class="behance-info">
+                        <h5>behance:</h5>
+                        <span>behance.net/jaanu</span>
+                    </div>
+                 </div>
+                <div class="btn-box">
+                    <a href="#" class="btn">Download</a>
+                    <a href="#" class="btn">Hire me</a>
+                </div>
+                <div class="social-icons">
+                    <a href="#"><i class='bx bxl-facebook'></i></a>
+                    <a href="#"><i class='bx bxl-instagram'></i></a>
+                    <a href="#"><i class='bx bxl-youtube'></i></a>
+                    <a href="#"><i class='bx bxl-whatsapp'></i></a>
+                    <a href="#"><i class='bx bxl-chrome'></i></a>
+                    <a href="https://github.com/hsukanya2000/port_folio-project1"><i class='bx bxl-github'></i></a>
+                </div>
+        </div>
+
+        <div class="home-image">
+            <div class="img-box">
+                <img src="./MY-IMG7.JPG.png" alt="" height="300px" width="300px">
+            </div>
+
+            <div class="liquid-shape">
+                <!--<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
+                    <path  fill="#12f7ff">
+                        <animate attributeName="d"
+                        dur="20000ms"
+                        repeatCount="infinite"
+                        values="
+                        M426,306.5Q405,363,361.5,412Q318,461,245.5,474Q173,487,121,434.5Q69,382,50,316Q31,250,63,193.5Q95,137,134.5,76.5Q174,16,244.5,33.5Q315,51,356,97Q397,143,422,196.5Q447,250,426,306.5Z;
+
+                        M454,317.5Q436,385,371,403.5Q306,422,248.5,426.5Q191,431,123.5,411Q56,391,57,320.5Q58,250,71,189.5Q84,129,128.5,71Q173,13,240,44Q307,75,374,93Q441,111,456.5,180.5Q472,250,454,317.5Z;
+                        
+                        M450,316.5Q432,383,369.5,404.5Q307,426,243.5,445.5Q180,465,129.5,420Q79,375,68,312.5Q57,250,66,186.5Q75,123,130,87Q185,51,255,35.5Q325,20,361,82Q397,144,432.5,197Q468,250,450,316.5Z;
+
+                        M415.5,304Q399,358,353,391.5Q307,425,240.5,455Q174,485,138.5,421Q103,357,66,303.5Q29,250,41,178.5Q53,107,115.5,67Q178,27,245.5,42.5Q313,58,375,86Q437,114,434.5,182Q432,250,415.5,304Z;
+
+                        M444,297Q429,344,402,387.5Q375,431,326.5,456.5Q278,482,228.5,459Q179,436,129.5,418Q80,400,66.5,349Q53,298,43.5,247.5Q34,197,58,149Q82,101,130,81Q178,61,228.5,35Q279,9,321,48Q363,87,413.5,112.5Q464,138,461.5,194Q459,250,444,297Z;
+
+                        M443.5,316Q455,382,395.5,409.5Q336,437,277,453.5Q218,470,157,449Q96,428,76,367.5Q56,307,33.5,243.5Q11,180,68,143Q125,106,172,70Q219,34,285.5,30Q352,26,399.5,74.5Q447,123,439.5,186.5Q432,250,443.5,316Z;
+                        
+                        M420.5,288.5Q409,327,398.5,375Q388,423,343.5,443.5Q299,464,252,456.5Q205,449,151.5,444.5Q98,440,87,387Q76,334,61,292Q46,250,57,206Q68,162,98,129.5Q128,97,162,55.5Q196,14,249.5,15.5Q303,17,331.5,64.5Q360,112,396,137.5Q432,163,432,206.5Q432,250,420.5,288.5Z;
+                        
+                        M470,296.5Q443,343,419.5,388Q396,433,344,434Q292,435,247,447.5Q202,460,165.5,431Q129,402,77,380Q25,358,41,304Q57,250,65.5,207.5Q74,165,99.5,129Q125,93,160,52Q195,11,248,18.5Q301,26,351.5,42.5Q402,59,426.5,106Q451,153,474,201.5Q497,250,470,296.5Z;
+                        
+                        M447,296.5Q443,343,416.5,384.5Q390,426,348,460Q306,494,258,459Q210,424,163.5,420.5Q117,417,98,374.5Q79,332,55,291Q31,250,60.5,211.5Q90,173,107,132.5Q124,92,167.5,85Q211,78,254.5,58Q298,38,331,73Q364,108,395.5,136.5Q427,165,439,207.5Q451,250,447,296.5Z;
+                        
+                        M426,306.5Q405,363,361.5,412Q318,461,245.5,474Q173,487,121,434.5Q69,382,50,316Q31,250,63,193.5Q95,137,134.5,76.5Q174,16,244.5,33.5Q315,51,356,97Q397,143,422,196.5Q447,250,426,306.5Z;"
+
+                        ></animate>
+                    </path>
+                  </svg>-->
+
+            </div>
+
+           <!--<div class="liquid-shape">
+                <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
+                    <path  fill="#12f7ff">
+                        <animate attributeName="d"
+                        dur="20000ms"
+                        repeatCount="infinite"
+                        values="
+                        M426,306.5Q405,363,361.5,412Q318,461,245.5,474Q173,487,121,434.5Q69,382,50,316Q31,250,63,193.5Q95,137,134.5,76.5Q174,16,244.5,33.5Q315,51,356,97Q397,143,422,196.5Q447,250,426,306.5Z;
+
+                        M454,317.5Q436,385,371,403.5Q306,422,248.5,426.5Q191,431,123.5,411Q56,391,57,320.5Q58,250,71,189.5Q84,129,128.5,71Q173,13,240,44Q307,75,374,93Q441,111,456.5,180.5Q472,250,454,317.5Z;
+                        
+                        M450,316.5Q432,383,369.5,404.5Q307,426,243.5,445.5Q180,465,129.5,420Q79,375,68,312.5Q57,250,66,186.5Q75,123,130,87Q185,51,255,35.5Q325,20,361,82Q397,144,432.5,197Q468,250,450,316.5Z;
+
+                        M415.5,304Q399,358,353,391.5Q307,425,240.5,455Q174,485,138.5,421Q103,357,66,303.5Q29,250,41,178.5Q53,107,115.5,67Q178,27,245.5,42.5Q313,58,375,86Q437,114,434.5,182Q432,250,415.5,304Z;
+
+                        M444,297Q429,344,402,387.5Q375,431,326.5,456.5Q278,482,228.5,459Q179,436,129.5,418Q80,400,66.5,349Q53,298,43.5,247.5Q34,197,58,149Q82,101,130,81Q178,61,228.5,35Q279,9,321,48Q363,87,413.5,112.5Q464,138,461.5,194Q459,250,444,297Z;
+
+                        M443.5,316Q455,382,395.5,409.5Q336,437,277,453.5Q218,470,157,449Q96,428,76,367.5Q56,307,33.5,243.5Q11,180,68,143Q125,106,172,70Q219,34,285.5,30Q352,26,399.5,74.5Q447,123,439.5,186.5Q432,250,443.5,316Z;
+                        
+                        M420.5,288.5Q409,327,398.5,375Q388,423,343.5,443.5Q299,464,252,456.5Q205,449,151.5,444.5Q98,440,87,387Q76,334,61,292Q46,250,57,206Q68,162,98,129.5Q128,97,162,55.5Q196,14,249.5,15.5Q303,17,331.5,64.5Q360,112,396,137.5Q432,163,432,206.5Q432,250,420.5,288.5Z;
+                        
+                        M470,296.5Q443,343,419.5,388Q396,433,344,434Q292,435,247,447.5Q202,460,165.5,431Q129,402,77,380Q25,358,41,304Q57,250,65.5,207.5Q74,165,99.5,129Q125,93,160,52Q195,11,248,18.5Q301,26,351.5,42.5Q402,59,426.5,106Q451,153,474,201.5Q497,250,470,296.5Z;
+                        
+                        M447,296.5Q443,343,416.5,384.5Q390,426,348,460Q306,494,258,459Q210,424,163.5,420.5Q117,417,98,374.5Q79,332,55,291Q31,250,60.5,211.5Q90,173,107,132.5Q124,92,167.5,85Q211,78,254.5,58Q298,38,331,73Q364,108,395.5,136.5Q427,165,439,207.5Q451,250,447,296.5Z;
+                        
+                        M426,306.5Q405,363,361.5,412Q318,461,245.5,474Q173,487,121,434.5Q69,382,50,316Q31,250,63,193.5Q95,137,134.5,76.5Q174,16,244.5,33.5Q315,51,356,97Q397,143,422,196.5Q447,250,426,306.5Z;"
+
+                        ></animate>
+                    </path>
+                  </svg>
+
+            </div>-->
+
+        </div>
+    </section>
+    
+
+    <!----about us section----------------------->
+    <section id="about" class="about" style="background-color: rgb(61, 57, 57);">
+        <div class="img-about">
+            <img src="./my-img.4jpg.jpg.png" alt="" height="300px" width="300px">
+            <div class="info-about1">
+               <!--<span>2months+</span>-->
+            <p>I have been learningweb 
+            development course
+            since few months</p>
+            </div>
+            <div class="info-about2">
+               <!-- <span>10 +</span>-->
+            <p>I have completed about
+                assignments</p>
+            </div>
+        </div>
+         <div class="about-content">
+            <span>Let me introduce my self</span>
+            <h2>About Me</h2>
+            <h3>A story of good</h3>
+            <p> My Name is Sukanya. I have Completed my Degree from Arts colleage.
+                Bachelor's degree in B.com (k2) in 2023. 
+                Looking to start and building a career as a Software Engineer in a reputed company Where I can give my best and get the best.
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                 Saepe dignissimos veritatis eligendi hic voluptatibus molestiae,
+                  vero deserunt expedita repellendus doloremque!
+                  Quam delectus at, ullam magni atque itaque voluptatibus labore amet!</p>
+         
+                 <div class="btn-box">
+                    <!--<a href="#" class="btn">Read More!</a>-->
+                 </div>
+                </div>
+    </section>
+
+
+     <!----services section----------------------->
+      <section class="services" id="services">
+        <div class="main-text">
+            <span>what i will do for you </span>
+            <h2>Our Services</h2>
+        </div>
+       <div class="section-services">
+        <div class="service-box">
+            <i class='bx bxs-layer service-icon'></i>
+            <h3>Web Developer</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                 Et odit modi aliquid perferendis, possimus voluptas
+                 harum rem mollitia, asperiores ut quo est necessitatibus
+                 facilis esse laudantium officia fugiat! Deserunt, excepturi.</p>
+        <div class="btn-box service-btn">
+          <!-- <a href="#" class="btn">Read More</a>--> 
+        </div>
+        </div>
+
+      <div class="service-box">
+        <i class='bx bx-desktop service-icon'></i>
+            <h3>Web Developer</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                 Et odit modi aliquid perferendis, possimus voluptas
+                 harum rem mollitia, asperiores ut quo est necessitatibus
+                 facilis esse laudantium officia fugiat! Deserunt, excepturi.</p>
+        <div class="btn-box service-btn">
+           <!--- <a href="#" class="btn">Read More</a>-->
+        </div>
+        </div>
+
+        <div class="service-box">
+            <i class='bx bx-code service-icon'></i>
+            <h3>Web Developer</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                 Et odit modi aliquid perferendis, possimus voluptas
+                 harum rem mollitia, asperiores ut quo est necessitatibus
+                 facilis esse laudantium officia fugiat! Deserunt, excepturi.</p>
+        <div class="btn-box service-btn">
+            <!--<a href="#" class="btn">Read More</a>-->
+        </div>
+        </div>
+    </div>
+</section>
+
+       <!----skills section----------------------->
+      <section class="skills" id="skills" style="background-color: rgb(55, 50, 50);">
+        <div class="main-text">
+            <span>Technecal And Professional</span>
+            <h2>My Skills</h2>
+        </div>
+        
+        <div class="skill-main">
+            <div class="skill-left">
+                <h3>Technical skills</h3>
+                <div class="skill-bar">
+                    <div class="info">
+                        <p>HTML</p>
+                        <p>80%</p>
+                    </div>
+                    <div class="bar">
+                        <span class="html"></span>
+                    </div>
+                </div>
+
+                <div class="skill-bar">
+                    <div class="info">
+                        <p>CSS</p>
+                        <p>80%</p>
+                    </div>
+                    <div class="bar">
+                        <span class="css"></span>
+                    </div>
+                </div>
+
+                <div class="skill-bar">
+                    <div class="info">
+                        <p>JAVASCRIPT</p>
+                        <p>30%</p>
+                    </div>
+                    <div class="bar">
+                        <span class="Javascript"></span>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="skills-right">
+                <h3>Professional skills</h3>
+                <div class="porfessional">
+                    <div class="box">
+                        <div class="circle" data-dots="80" data-percent="90"></div>
+                        <div class="text">
+                            <big>90%</big>
+                            <small>Team Work</small>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="circle" data-dots="80" data-percent="55%"></div>
+                        <div class="text">
+                            <big>55%</big>
+                            <small>project Management</small>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="circle" data-dots="80" data-percent="80"></div>
+                        <div class="text">
+                            <big>80%</big>
+                            <small>Creativity</small>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="circle" data-dots="80" data-percent="70"></div>
+                        <div class="text">
+                            <big>70%</big>
+                            <small>Communication</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+
+       <!----portfolio section----------------------->
+        <section id="portfolio" class="portfolio">
+           <div class="main-text">
+                <span>What i will do for you</span>
+                <h2>Latest Project</h2>
+            </div>
+
+            <div class="container">
+                <div class="filter-buttons">
+                    <button class="btn">All</button>
+                    <button class="btn">Product</button>
+                    <button class="btn">Interacting</button>
+                    <button class="btn">Web development</button>
+                </div>
+                <div class="portfolio-gallery">
+                    <div class="port-box">
+                        <div class="port-image">
+                        <!--<img src="https://st4.depositphotos.com/12981370/24312/i/950/depositphotos_243120806-stock-photo-programmer-working-software-development-coding.jpg" alt="" height="500px" width="500px">
+                         -->   
+                         <img src="https://1000logos.net/wp-content/uploads/2016/10/Amazon-Logo.png" height="500px" width="500px">
+                        </div>
+                        <div class="port-content">
+                            <h3>Amazon Clone</h3>
+                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos unde quibusdam repudiandae doloremque dolores, modi accusantium eveniet maxime maiores cumque?</p> 
+                          <a href="amazon-project/amazon.html"><i class='bx bx-link-external'></i></a>
+                            </div>
+                    </div>
+
+                    <div class="port-box">
+                        <div class="port-image">
+                       <!-- <img src="https://st3.depositphotos.com/1607243/19498/i/450/depositphotos_194982968-stock-photo-office-responsive-devices-website-builder.jpg" alt="" height="500px" width="500px">    -->
+                        <img src="data:image/png;base64,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" height="500px" width="500px">
+                    </div>
+                        <div class="port-content">
+                            <h3>Zomato</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos unde quibusdam repudiandae doloremque dolores, modi accusantium eveniet maxime maiores cumque?</p>
+                          <a href="./Zomato_project/zomato.html"><i class='bx bx-link-external'></i></a>
+                            </div>
+                    </div>
+
+                    <div class="port-box">
+                        <div class="port-image">
+                        <img src="https://st2.depositphotos.com/1003924/7939/i/450/depositphotos_79399514-stock-photo-responsive-web-design.jpg" alt="" height="500px" width="500px">    
+                        </div>
+                        <div class="port-content">
+                            <h3>web development</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos unde quibusdam repudiandae doloremque dolores, modi accusantium eveniet maxime maiores cumque?</p>
+                          <a href="#"><i class='bx bx-link-external'></i></a>
+                            </div>
+                    </div>
+
+                    <!--<div class="port-box">
+                        <div class="port-image">
+                        <img src="https://st2.depositphotos.com/1032463/7811/i/450/depositphotos_78113092-stock-photo-programmer-profession-man-writing-programming.jpg" alt="" height="500px" width="500px">    
+                        </div>
+                        <div class="port-content">
+                            <h3>web development</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos unde quibusdam repudiandae doloremque dolores, modi accusantium eveniet maxime maiores cumque?</p>
+                          <a href="#"><i class='bx bx-link-external'></i></a>
+                            </div>
+                    </div>
+
+                    <div class="port-box">
+                        <div class="port-image">
+                        <img src="https://st4.depositphotos.com/1907633/20698/i/450/depositphotos_206989272-stock-photo-coding-software-developer-work-augmented.jpg" alt="" height="500px" width="500px">    
+                        </div>
+                        <div class="port-content">
+                            <h3>web development</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos unde quibusdam repudiandae doloremque dolores, modi accusantium eveniet maxime maiores cumque?</p>
+                          <a href="#"><i class='bx bx-link-external'></i></a>
+                            </div>
+                    </div>
+
+                    <div class="port-box">
+                        <div class="port-image">
+                        <img src="https://st2.depositphotos.com/3591429/7812/i/450/depositphotos_78122434-stock-photo-web-design-media-content-light.jpg" alt="" height="500px" width="500px">    
+                        </div>
+                        <div class="port-content">
+                            <h3>web development</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos unde quibusdam repudiandae doloremque dolores, modi accusantium eveniet maxime maiores cumque?</p>
+                          <a href="#"><i class='bx bx-link-external'></i></a>
+                            </div>-->
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+
+        
+        <!----contact  section----------------------->
+ 
+         <section id="contact" class="contant" style="background-color: rgb(66, 60, 60);">
+              <div class="main-text">
+                <span>Ask me question</span>
+                <h2>contact me</h2>
+              </div>
+        
+              <form action="https://mail.google.com/mail/u/0/#inbox">
+                <input type="text" placeholder="Your Name">
+                <input type="text" placeholder="Your Email">
+                <input type="text" placeholder="Your address">
+                <input type="number" placeholder="Phone Name">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                   <div class="btn-box formBtn">
+                   <button type="submit" class="btn">send Message</button>
+                   </div>
+                  </form>
+
+         </section>
+         <!--Education Detailes-------------------->
+              <section class="education" id="Education Detailes">
+                 <h2 class="heading">My<span>Education</span>Detailes</h2>
+                    <div class="education-row">
+                        <div class="education-column">
+                            <h3 class="title">Education</h3>
+                           <div class="education-box">
+                                <div class="education-content">
+                                    <div class="content">
+                                    <div class="year"><i class='bx bxs-calendar'></i> 2020 - 2023</div>
+                                    <h3>Master Degree - S.K University from Ananthapur.</h3>
+                                     <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                         Odit iure atque quisquam fugit possimus deserunt dignissimos asperiores et quasi repellat?</p>
+                                    </div>
+                                </div>
+
+                                <div class="education-content">
+                                    <div class="content">
+                                    <div class="year"><i class='bx bxs-calendar'></i> 2017 - 2019</div>
+                                    <h3>My Intermediate - Sri Satya Sai from Ananthapur.</h3>
+                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        Iure voluptatem impedit ipsum sint aperiam? Alias quos voluptatem obcaecati velit enim?</p>
+                                    </div>
+                                </div>
+
+                                <div class="education-content">
+                                    <div class="content">
+                                    <div class="year"><i class='bx bxs-calendar'></i> 2017</div>
+                                    <h3>My school - K.G.B.V School from Beluguppa</h3>
+                                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis, tempora porro. 
+                                        Incidunt in, provident nobis facilis assumenda voluptatum repudiandae id!</p>
+                                    </div>
+                                </div>
+
+                           </div>                        
+                        </div>
+                    </div>
+               </section>
+
+         <!--footer website-->
+
+         <footer style="background-color: rgb(70, 64, 64);">
+            <p>copyright @copy; 2023 by sukanya || All Right Reserved.</p>
+            <a href="home"><i class="bx bx-up-arrow-alt"></i></a>
+         </footer>
+
+      <script src="index.js"></script>
+</body>
+</html>
