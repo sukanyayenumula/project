@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "../../Zomato project"
+		},
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../Odin.html"
+		},
+		{
+			"path": "../../week 13"
+		},
+		{
+			"path": "../../week14"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "PORT_POLIO PROJECT2"
+	}
+}
